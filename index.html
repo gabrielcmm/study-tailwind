@@ -7,11 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body class="h-full">
+  <body class="h-screen">
+    <header class="bg-blue-300">head</header>
     <main class="flex">
-      <aside class="w-60 h-screen bg-zinc-600">aside</aside>
-      <section>main</section>
+      <aside class="w-36 bg-zinc-600">aside</aside>
+      <div class="flex flex-col h-screen w-screen">
+        <section class="h-full bg-zinc-400">main</section>
+      </div>
     </main>
-    <footer class="bg-zinc-300 h-16 mt5">foot</footer>
+    <footer class="h-16 sticky bottom-0 left-0 bg-red-500">teste</footer>
   </body>
 </html>
